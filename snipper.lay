@@ -1,0 +1,12 @@
+LAYOUT(snipperLayout, 320, 276)
+	ITEM(DocEdit, ded, HSizePosZ(0, 0).VSizePosZ(0, 52))
+	ITEM(Button, btnSave, RightPosZ(16, 60).BottomPosZ(16, 20))
+	ITEM(Button, btnReset, RightPosZ(88, 60).BottomPosZ(16, 20))
+END_LAYOUT
+
+LAYOUT(ednamelo, 200, 60)
+	ITEM(EditString, eb, LeftPosZ(4, 192).TopPosZ(4, 19))
+	ITEM(Button, bk, SetLabel(t_("OK")).LeftPosZ(28, 60).TopPosZ(32, 20))
+	ITEM(Button, bc, SetLabel(t_("Cancel")).LeftPosZ(112, 60).TopPosZ(32, 20))
+END_LAYOUT
+

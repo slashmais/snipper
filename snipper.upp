@@ -1,0 +1,24 @@
+description "info, code-snippets & examples, ...\377";
+
+uses
+	CtrlLib,
+	HoM,
+	dbsqlite3;
+
+library
+	sqlite3;
+
+file
+	main.cpp,
+	snipper.h,
+	snipper.cpp,
+	snipper.iml,
+	dbsnip.h,
+	dbsnip.cpp,
+	snippet.h,
+	snippet.cpp,
+	snipper.lay;
+
+mainconfig
+	"" = "GUI";
+
